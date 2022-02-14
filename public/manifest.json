@@ -1,0 +1,44 @@
+{
+  "name": "favr.town",
+  "short_name": "favr.town",
+  "description": "favr.town is for patrons to engage with their favorite merchants, and for merchants to reward their patron's FAVR, such as likes, votes, suggestions, shares, purchases, etc.",
+  "lang": "en",
+  "categories": ["business"],
+  "start_url": "https://app.favr.town",
+  "icons": [
+    {
+      "src": "pwa-icons/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "pwa-icons/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "pwa-icons/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "pwa-icons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "pwa-icons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "pwa-icons/icon-1024x1024.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    }
+  ],
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

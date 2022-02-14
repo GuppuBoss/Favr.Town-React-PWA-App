@@ -1,0 +1,130 @@
+.patronTopButtonWrapper {
+  display: flex;
+  margin-bottom: 16px;
+  align-items: center;
+}
+
+.patronMiddleButtonWrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin: 16px 50px 0px 0px;
+}
+.patronBottomButtonWrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 16px;
+}
+
+.normalButtonWrapper {
+  font-family: 'BalooChettan2';
+  cursor: pointer;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.0892857143em;
+  text-transform: uppercase;
+  padding: 0 16px 0 16px;
+  height: 36px;
+  border-radius: var(--mdc-shape-small, 4px);
+  background-color: #fff !important;
+  color: #000;
+  border: 1px solid #000000;
+  width: fit-content;
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+}
+.normal-button-wrapper:disabled {
+  background-color: rgb(206, 200, 200) !important;
+  cursor: not-allowed;
+}
+
+.patronPageWrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.patronAccountContainer {
+  flex-direction: column;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.95) 0 100%),
+    url(https://img.favr.town/app/p-account-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100vh - 300px);
+  display: flex;
+  justify-content: center;
+  width: 460px;
+  margin-top: 100px;
+  position: relative;
+  overflow-y: auto;
+}
+
+.patronContainer {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.95) 0 100%),
+    url(https://img.favr.town/app/p-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100vh - 180px);
+  width: 460px;
+  flex-direction: column;
+  display: flex;
+  margin-top: 100px;
+  overflow-y: auto;
+}
+
+.patronBodyWrapper {
+  padding: 30px;
+}
+
+.topAndBottomButtons {
+  width: 110px;
+  height: 60px;
+}
+.middleButton {
+  width: 140px;
+  height: 110px;
+  position: absolute;
+}
+
+.topLeftButton {
+  margin-left: 80px;
+}
+.topRightButtonWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.rightButton {
+  margin-right: 80px;
+}
+.couponIcon {
+  width: 35px;
+}
+@media screen and (max-width: 550px) {
+  .patronContainer {
+    // height: calc(100vh - 140px);
+    // margin-top: 70px;
+    overflow-y: auto;
+  }
+  .patronContainer {
+    // height: calc(100vh - 170px);
+    // margin-top: 70px;
+    width: 100%;
+  }
+  .patronMiddleButtonWrapper {
+    margin-right: 20px;
+  }
+  .rightButton {
+    margin-right: 50px;
+  }
+  .topLeftButton {
+    margin-left: 50px;
+  }
+}
+
+.simpleCloud .tagCloudTag {
+  cursor: pointer;
+}

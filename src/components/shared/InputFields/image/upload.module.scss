@@ -1,0 +1,123 @@
+.gridRoot {
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+
+.buttonWrapper {
+  padding: 10px 0 10px 0;
+}
+
+.closeButtonWrapper {
+  padding: 10px 25px 0 0;
+}
+
+.deleteIconWrapper {
+  align-self: self-end;
+}
+
+.profilePageWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profileContainer {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.95) 0 100%),
+    url(https://img.favr.town/app/p-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100vh - 165px);
+  width: 460px;
+  flex-direction: column;
+  display: flex;
+  margin-top: 100px;
+  overflow: scroll;
+}
+
+.profileFormWrapper {
+  padding: 30px;
+}
+
+.closeButton {
+  position: absolute !important;
+  top: 2px;
+  right: 2px;
+}
+
+.text {
+  padding: 8px 0 0 12px;
+}
+
+.formInputWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+}
+
+.inputLabel {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.inputError {
+  color: #aa1119;
+  font-family: 'BalooChettan2';
+  font-size: 0.9em;
+  margin-top: 0;
+}
+
+.profileImage {
+  display: block;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  img {
+    border-radius: 5px;
+  }
+}
+
+.inputField {
+  padding: 12px;
+  border-radius: 4px;
+  font-size: 16px;
+  width: calc(100% - 28px);
+  font-family: 'BalooChettan2';
+  border: 1px solid black;
+}
+
+.buttonWrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.profileImageContainer {
+  min-width: 200px;
+}
+
+.profileImageWrapper {
+  position: relative;
+  img {
+    border: 1px solid grey;
+  }
+}
+
+.imageAddIcon {
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+  background-color: rgba(150, 150, 150, 0.5);
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.04);
+  }
+}
+
+.imageDeleteIcon {
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+  background-color: rgba(150, 150, 150, 0.5);
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.04);
+  }
+}

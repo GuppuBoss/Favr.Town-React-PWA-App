@@ -1,0 +1,187 @@
+.contentSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  width: 460px;
+  height: calc(100vh - 180px);
+  overflow-x: hidden;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.programSectionWrapper {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.95) 0 100%),
+    url(https://img.favr.town/app/program-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100vh - 165px);
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 460px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.buttonsContentWrapper {
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttonsGroupWrapper {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+
+  &:nth-child(2) {
+    margin: 30px 0;
+  }
+}
+.bottomButtonsGroupWrapper {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 0 0 0 30px;
+}
+
+.marginLeft {
+  margin-left: 20px;
+}
+.marginRight {
+  margin-right: 20px;
+}
+
+.selfAlign {
+  align-self: flex-start;
+}
+
+.normalButtonWrapper {
+  font-family: 'BalooChettan2';
+  cursor: pointer;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.0892857143em;
+  text-transform: uppercase;
+  padding: 0 16px 0 16px;
+  height: 56px;
+  border-radius: var(--mdc-shape-small, 4px);
+  background-color: #fff !important;
+  color: #000;
+  border: 1px solid #000;
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+}
+
+.toprightButton {
+  width: 110px;
+  height: 60px;
+}
+
+.topIcon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: max-content;
+  height: max-content;
+  margin-bottom: -20px;
+  margin-right: -20px;
+}
+
+.topleftButton {
+  width: 110px;
+  height: 60px;
+}
+
+.middleButton {
+  width: 140px;
+  height: 110px;
+}
+
+.middleIcon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: max-content;
+  height: max-content;
+  margin-bottom: -15px;
+  margin-right: -15px;
+}
+
+.buttonsWrapper {
+  position: relative;
+  width: max-content;
+  box-sizing: border-box;
+}
+
+.iconsWrapper {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: max-content;
+  height: max-content;
+  margin-bottom: -30px;
+  margin-right: -30px;
+  margin: 0;
+}
+
+.middleIconWrapper {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: max-content;
+  height: max-content;
+  margin-bottom: -15px;
+  margin-right: -15px;
+}
+
+.buttonNameWrapper {
+  margin: 0;
+  font-family: 'BalooChettan2';
+  cursor: pointer;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  font-weight: 600;
+}
+
+.buttonUpdatedWrapper {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  display: inline-block;
+  font-size: 12px;
+}
+
+.redDot {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  background-color: red;
+  border-radius: 50%;
+  border: 1px solid black;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 3px;
+  margin-left: 3px;
+}
+
+@media screen and (max-width: 550px) {
+  .programSectionWrapper {
+    height: calc(100vh - 280px);
+    background-size: contain;
+    padding: 30px 0;
+  }
+
+  .marginLeft {
+    margin-left: 15px;
+  }
+  .marginRight {
+    margin-right: 15px;
+  }
+}

@@ -1,0 +1,54 @@
+.privacyPageWrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.privacyLabelWrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.privacyLabel {
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+
+.privacyContentWrapper {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.95) 0 100%),
+    url(https://img.favr.town/app/privacy-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 460px;
+  height: calc(100vh - 165px);
+  overflow-y: auto;
+  margin-top: 100px;
+  overflow-y: auto;
+}
+.privacyItemsContentWrapper {
+  align-items: center;
+}
+.privacyStatement {
+  font-size: 1.125rem;
+  line-height: 1.5;
+  white-space: pre-line;
+}
+.privacyWrapper {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+@media screen and (max-width: 550px) {
+  .privacyContentWrapper {
+    // height: calc(100vh - 140px);
+    width: 100%;
+    overflow-x: hidden;
+    // margin-top: 70px;
+    overflow-y: auto;
+  }
+  .privacyWrapper {
+    width: calc(100%-48px);
+  }
+}

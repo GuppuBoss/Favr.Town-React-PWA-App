@@ -1,0 +1,247 @@
+@import '../../../styles/screenSize';
+
+.profilePageWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profileContainer {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.95) 0 100%),
+    url(https://img.favr.town/app/p-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100vh - 165px);
+  width: 460px;
+  flex-direction: column;
+  display: flex;
+  margin-top: 100px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.profileFormWrapper {
+  padding: 30px;
+}
+
+.closeButton {
+  position: absolute !important;
+  top: 2px;
+  right: 2px;
+}
+
+.text {
+  padding: 8px 0 0 12px;
+}
+.root {
+  margin: 3px;
+}
+.formInputWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+}
+
+.inputLabel {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.inputError {
+  color: #aa1119;
+  font-family: 'BalooChettan2';
+  font-size: 0.9em;
+  margin-top: 0;
+}
+
+.profileImage {
+  display: block;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  img {
+    border-radius: 5px;
+  }
+}
+
+.profilePicWrapper {
+  width: 100%;
+}
+.inputField {
+  padding: 12px;
+  border-radius: 4px;
+  font-size: 16px;
+  width: calc(100% - 28px);
+  font-family: 'BalooChettan2';
+  border: 1px solid black;
+}
+
+.buttonWrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.profileImageContainer {
+  min-width: 200px;
+}
+
+.lanesAndSpecs {
+  border: solid 1px;
+  border-color: gray;
+  border-radius: 4px;
+  display: flex;
+  flex-wrap: wrap;
+
+  .lanes {
+    padding: 3px 15px;
+  }
+}
+
+.chip {
+  background: transparent;
+  border: solid 1px #e0e0e0;
+}
+
+.mLanesBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.mBox {
+  width: 500px;
+  // height: 250px;
+  padding: 20px;
+  background-color: whitesmoke;
+}
+.albumContainer {
+  overflow: auto;
+  white-space: nowrap;
+  width: 400px;
+}
+
+.albumImage {
+  display: inline-block;
+  margin: 0 5px 0 5px;
+  position: relative;
+  img {
+    border-radius: 5px;
+  }
+}
+
+.AlbumMerchant {
+  display: flex;
+}
+
+.profileImageWrapper {
+  position: relative;
+  img {
+    border: 1px solid grey;
+  }
+}
+
+.MuiOutlinedInput-multiline {
+  padding: 0px, 0px !important;
+}
+.profileImageAddIcon {
+  position: absolute !important;
+  right: 4%;
+  bottom: 4%;
+  background-color: rgba(255, 255, 255, 0.3) !important;
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.04) !important;
+  }
+}
+.AddIcon {
+  position: absolute !important;
+  right: 4%;
+  top: 4%;
+  background-color: rgba(255, 255, 255, 0.3) !important;
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.04) !important;
+  }
+}
+.deleteIcon {
+  position: absolute !important;
+  left: 4%;
+  bottom: 8%;
+  background-color: rgba(255, 255, 255, 0.3) !important;
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.04) !important;
+  }
+}
+.addLaneModal {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.profileImageDeleteIcon {
+  position: absolute !important;
+  left: 4%;
+  bottom: 4%;
+  background-color: rgba(255, 255, 255, 0.3) !important;
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.04) !important;
+  }
+}
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.errorText {
+  color: #f44336;
+  margin: 0;
+  margin-left: 14px;
+  margin-right: 14px;
+  font-size: 0.75rem;
+  margin-top: 3px;
+  text-align: left;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  font-weight: 400;
+  line-height: 1.66;
+  letter-spacing: 0.03333em;
+}
+
+.bodyWrapper {
+  border-radius: 25px;
+  display: flex;
+  position: absolute;
+  left: 25%;
+  top: 15%;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  width: 50%;
+  background-color: white;
+}
+
+.gridRoot {
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+
+.buttonWrapper {
+  padding: 10px 0 10px 0;
+}
+
+.closeButtonWrapper {
+  padding: 10px 25px 0 0;
+}
+.alignCenter {
+  align-self: center;
+}
+.deleteIconWrapper {
+  align-self: self-end;
+}
+@media screen and (max-width: 550px) {
+  .profileContainer {
+    height: calc(100vh - 250px);
+  }
+  .bodyWrapper {
+    left: 2%;
+    width: 90%;
+  }
+}

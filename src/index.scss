@@ -1,0 +1,138 @@
+@font-face {
+  font-family: 'BalooChettan2';
+  src: local('BalooChettan2'),
+    url(./assets/fonts/Baloo_Chettan_2/BalooChettan2-Regular.ttf)
+      format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'BalooChettan2';
+  src: local('BalooChettan2'),
+    url(./assets/fonts/Baloo_Chettan_2/BalooChettan2-Medium.ttf)
+      format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'BalooChettan2';
+  src: local('BalooChettan2'),
+    url(./assets/fonts/Baloo_Chettan_2/BalooChettan2-SemiBold.ttf)
+      format('truetype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'BalooChettan2';
+  src: local('BalooChettan2'),
+    url(./assets/fonts/Baloo_Chettan_2/BalooChettan2-Bold.ttf)
+      format('truetype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'BalooChettan2';
+  src: local('BalooChettan2'),
+    url(./assets/fonts/Baloo_Chettan_2/BalooChettan2-ExtraBold.ttf)
+      format('truetype');
+  font-weight: 800;
+}
+
+body {
+  font-family: 'BalooChettan2';
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+}
+
+.modal-header-margin {
+  margin-left: 24px;
+}
+.align-self-center {
+  align-self: center;
+}
+.margin-left-auto {
+  margin-left: auto;
+}
+.remove-side-padding {
+  padding-left: 0px;
+  padding-right: 0px;
+  overflow-y: unset;
+}
+.MuiDialog-paper {
+  margin: unset !important;
+}
+
+.Mui-focused {
+  color: grey !important;
+}
+.MuiFormHelperText-root.Mui-error {
+  color: #f44336 !important;
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border-color: grey !important;
+}
+
+.MuiPickersToolbar-toolbar {
+  background-color: grey !important;
+}
+
+.MuiPickersDay-daySelected {
+  background-color: grey !important;
+}
+.MuiPickerDTTabs-tabs {
+  background-color: grey !important;
+}
+.MuiTabs-indicator {
+  background-color: #bebebe !important;
+}
+.MuiPickersClock-pin {
+  background-color: #949494 !important;
+}
+.MuiPickersClockPointer-pointer {
+  background-color: #949494 !important;
+}
+.MuiPickersClockPointer-thumb {
+  border: 14px solid #949494 !important;
+  background-color: #949494 !important;
+}
+.MuiTypography-colorPrimary {
+  background: grey !important;
+  color: whitesmoke !important;
+}
+
+.MuiButton-textPrimary {
+  color: grey !important;
+}
+
+.Mui-disabled {
+  cursor: not-allowed !important;
+  pointer-events: fill !important;
+}
+
+.tag-cloud-tag {
+  cursor: pointer !important;
+  &:hover {
+    background-color: rgba(211, 211, 211, 0.6);
+    border-radius: 5px;
+  }
+}
+
+.MuiInputLabel-outlined.MuiInputLabel-marginDense {
+  transform: translate(14px, 13px) scale(1);
+}
+
+.MuiDialogTitle-root {
+  justify-content: space-between !important;
+  align-items: center;
+}
+
+.action-icon {
+  width: 40px;
+}
+
+.action-icon-mini {
+  width: 15px;
+  margin: 0 5px;
+}

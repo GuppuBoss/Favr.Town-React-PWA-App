@@ -1,0 +1,81 @@
+.contentSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  width: 460px;
+  height: calc(100vh - 180px);
+  overflow-x: hidden;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.staticsSectionWrapper {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.95) 0 100%),
+    url(https://img.favr.town/app/m-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 460px;
+  height: calc(100vh - 180px);
+  box-sizing: border-box;
+  padding: 0 15px;
+  overflow-y: auto;
+}
+
+.staticsSectionHeader {
+  text-align: left;
+  color: rgb(28, 28, 28);
+  font-size: 27px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.staticsSectionDataWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.statisticsTopWrapper {
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+
+.staticsBottomWrapper {
+  box-sizing: border-box;
+}
+
+.statisticsLineWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 13px 0;
+}
+
+.staticsNameWrapper {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+  color: #000;
+}
+
+.staticsValueWrapper {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 550px) {
+  .staticsSectionWrapper {
+    width: 100%;
+    height: calc(100vh - 250px);
+    background-size: contain;
+  }
+  .contentSection {
+    width: 100%;
+  }
+}

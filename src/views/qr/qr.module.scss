@@ -1,0 +1,79 @@
+.root {
+  width: 100%;
+}
+.qrContainer {
+  margin-top: 30px;
+}
+
+.qrWrapper {
+  border: 1px solid;
+  padding: 2px !important;
+  border-radius: 5px;
+}
+.buttonWrapper {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.skeletonButton {
+  margin-top: 5px;
+}
+
+.contentSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  width: 460px;
+  height: calc(100vh - 180px);
+  overflow-x: hidden;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bannerContainer {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.95) 0 100%),
+    url(https://img.favr.town/app/m-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 460px;
+  height: calc(100vh - 180px);
+  display: flex;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.normalButtonWrapper {
+  align-self: center;
+  font-family: 'BalooChettan2';
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.0892857143em;
+  text-transform: uppercase;
+  padding: 10px 25px 10px 25px;
+  border-radius: var(--mdc-shape-small, 4px);
+  background-color: #fff !important;
+  color: #000;
+  border: 1px solid #000;
+  // width: fit-content;
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+}
+.normalButtonWrapper:disabled {
+  cursor: not-allowed;
+  border: 1px solid #777777;
+  color: #777777;
+}
+
+@media screen and (max-width: 550px) {
+  .bannerContainer {
+    width: 100%;
+    height: calc(100vh - 250px);
+    background-size: contain;
+  }
+  .contentSection {
+    width: 100%;
+  }
+}

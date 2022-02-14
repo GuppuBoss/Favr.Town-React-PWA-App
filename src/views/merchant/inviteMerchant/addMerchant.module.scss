@@ -1,0 +1,38 @@
+.addMerchantPageWrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.addMerchantContainer {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.95) 0 100%),
+    url(https://img.favr.town/app/p-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100vh - 180px);
+  width: 460px;
+  flex-direction: column;
+  display: flex;
+  margin-top: 100px;
+  overflow-y: auto;
+}
+
+.addMerchantBodyWrapper {
+  padding: 30px;
+}
+
+.listSubHeader {
+  position: static !important;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 550px) {
+  .addMerchantContainer {
+    width: 100%;
+  }
+}

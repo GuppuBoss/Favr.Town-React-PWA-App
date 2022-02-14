@@ -1,0 +1,58 @@
+.contentSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  width: 460px;
+  height: calc(100vh - 180px);
+  overflow-x: hidden;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bannerContainer {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.95) 0 100%),
+    url(https://img.favr.town/app/m-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 460px;
+  height: calc(100vh - 180px);
+  display: flex;
+  overflow-y: auto;
+}
+.root {
+  padding: 25px;
+  width: 100%;
+}
+.image {
+  min-height: 40px;
+  max-height: 75px;
+}
+
+.modalButtonWrapper {
+  padding-right: 24px !important;
+}
+
+.suggestionCard {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.3) !important;
+  margin-bottom: 8px;
+}
+
+.businessLogo {
+  max-width: 100%;
+  max-height: 200px;
+  border-radius: 12px;
+}
+@media screen and (max-width: 550px) {
+  .bannerContainer {
+    width: 100%;
+    height: calc(100vh - 250px);
+    background-size: contain;
+  }
+  .contentSection {
+    width: 100%;
+  }
+}

@@ -1,0 +1,24 @@
+.MuiOutlinedInput-input {
+  padding: 12px 12px 12px;
+}
+
+.MuiInputLabel-outlined.MuiInputLabel-marginDense {
+  transform: translate(14px, 12px) scale(1);
+}
+
+.MuiInputLabel-outlined {
+  transform: translate(14px, 12px) scale(1);
+}
+
+.MuiInputLabel-outlined.MuiInputLabel-shrink {
+  z-index: 0;
+  transform: translate(14px, -6px) scale(0.75);
+}
+
+.MuiInputBase-inputMultiline {
+  padding: 0 5px 0 0;
+}
+
+.MuiAutocomplete-input {
+  text-transform: uppercase;
+}

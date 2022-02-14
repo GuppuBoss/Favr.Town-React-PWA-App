@@ -1,0 +1,70 @@
+.root {
+  width: 100%;
+  padding: 25px;
+}
+.gridRoot {
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+.buttonSection {
+  padding: 4px;
+  margin-top: 3px;
+}
+.iconButton {
+  margin: 5px;
+}
+.contentSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  width: 460px;
+  height: calc(100vh - 180px);
+  overflow-x: hidden;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bannerContainer {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.95) 0 100%),
+    url(https://img.favr.town/app/m-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 460px;
+  height: calc(100vh - 180px);
+  display: flex;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.cardContent {
+  padding: 8px;
+}
+
+.conversationAction {
+  margin: 10px 0;
+}
+
+.conversationIcon {
+  width: 100%;
+  border-radius: 4px;
+  min-height: auto;
+}
+
+.conversationFooterButtonsWrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 10px 10px 10px;
+}
+@media screen and (max-width: 550px) {
+  .bannerContainer {
+    width: 100%;
+    height: calc(100vh - 250px);
+    background-size: contain;
+  }
+  .contentSection {
+    width: 100%;
+  }
+}

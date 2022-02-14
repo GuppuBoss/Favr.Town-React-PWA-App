@@ -1,0 +1,135 @@
+.contentSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  width: 460px;
+  height: calc(100vh - 180px);
+  overflow-x: hidden;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bannerContainer {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.95) 0 100%),
+    url(https://img.favr.town/app/m-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 460px;
+  height: calc(100vh - 180px);
+  display: flex;
+  overflow-y: auto;
+}
+.root {
+  padding: 30px;
+  width: 100%;
+}
+.image {
+  min-height: 40px;
+  max-height: 75px;
+}
+
+.suggestionImage {
+  max-width: 100%;
+}
+
+.chipRippleUpgraded {
+  font-size: 0.7rem;
+  margin-bottom: 2px;
+  border-radius: 5px;
+  background-color: rgba(10, 10, 10, 0.11);
+  color: rgba(0, 0, 0, 0.87);
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+
+  font-size: 0.875rem;
+  font-size: var(--mdc-typography-body2-font-size, 0.875rem);
+  line-height: 1.25rem;
+  line-height: var(--mdc-typography-body2-line-height, 1.25rem);
+  font-weight: 400;
+  font-weight: var(--mdc-typography-body2-font-weight, 400);
+  letter-spacing: 0.0178571429em;
+  letter-spacing: var(--mdc-typography-body2-letter-spacing, 0.0178571429em);
+  text-decoration: inherit;
+  -webkit-text-decoration: var(--mdc-typography-body2-text-decoration, inherit);
+  text-decoration: var(--mdc-typography-body2-text-decoration, inherit);
+  text-transform: inherit;
+  text-transform: var(--mdc-typography-body2-text-transform, inherit);
+  height: 25px;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 5px;
+  border-width: 0;
+  outline: none;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+
+.chipRippleUpgradedMain {
+  font-size: 0.7rem;
+  margin-bottom: 2px;
+  border-radius: 5px;
+  background-color: rgba(10, 10, 10, 0.11);
+  color: rgba(0, 0, 0, 0.87);
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+
+  font-size: 0.875rem;
+  font-size: var(--mdc-typography-body2-font-size, 0.875rem);
+  line-height: 1.25rem;
+  line-height: var(--mdc-typography-body2-line-height, 1.25rem);
+  font-weight: 400;
+  font-weight: var(--mdc-typography-body2-font-weight, 400);
+  letter-spacing: 0.0178571429em;
+  letter-spacing: var(--mdc-typography-body2-letter-spacing, 0.0178571429em);
+  text-decoration: inherit;
+  -webkit-text-decoration: var(--mdc-typography-body2-text-decoration, inherit);
+  text-decoration: var(--mdc-typography-body2-text-decoration, inherit);
+  text-transform: inherit;
+  text-transform: var(--mdc-typography-body2-text-transform, inherit);
+  height: 25px;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 5px;
+  border-width: 0;
+  outline: none;
+  cursor: pointer;
+  -webkit-appearance: none;
+  font-weight: 600;
+}
+
+.couponWrapper {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.3) !important;
+  margin: 30px 10px 0 0;
+  width: 30px;
+  border-top: dotted 1px black;
+  border-right: dotted 1px black;
+  border-bottom: dotted 1px black;
+}
+.coupon {
+  padding: 5px;
+  border-radius: 5px;
+  position: absolute;
+  top: -30px;
+  left: -15px;
+}
+.couponIcon {
+  width: 35px;
+}
+@media screen and (max-width: 550px) {
+  .bannerContainer {
+    width: 100%;
+    height: calc(100vh - 250px);
+    background-size: contain;
+  }
+  .contentSection {
+    width: 100%;
+  }
+}

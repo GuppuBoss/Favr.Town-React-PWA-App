@@ -1,0 +1,160 @@
+.closeIconWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.modalInputWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.modalInputWrapperAlignCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalInputLabel {
+  font-size: 16px;
+  margin: 4px;
+  font-weight: 600;
+}
+
+.modalInput {
+  padding: 12px;
+  border-radius: 4px;
+  font-size: 16px;
+  margin: 4px;
+}
+
+.forgetPasswordLoginError {
+  color: #aa1119;
+  font-family: 'BalooChettan2';
+  font-size: 0.9em;
+  margin-top: 0;
+}
+
+.forgetPasswordStaticTextWrapper {
+  display: flex;
+  margin-bottom: 4px;
+  margin-right: 4px;
+  margin-left: 4px;
+  align-items: center;
+}
+
+.modalButtonWrapper {
+  display: flex;
+  margin: 8px 0px;
+  justify-content: flex-end;
+}
+
+.areYouSureModalButtonWrapper {
+  display: flex;
+  margin: 8px;
+  justify-content: space-between;
+}
+
+.favoriteIcon {
+  color: #aa1119;
+}
+
+.acknowledgementModalContentWrapper {
+  padding: 10px 25px 25px 25px;
+  width: 400px;
+  scrollbar-width: none;
+}
+
+.acknowledgementModalTitleWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.acknowledgementModalTitle {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.licenseWrapper {
+  cursor: pointer;
+  border: 1px solid #fafdff;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  padding: 10px;
+  box-shadow: 0px 1px 3px 0px rgba(142, 142, 142, 0.2),
+    0px 1px 1px 0px rgba(243, 243, 243, 0.14),
+    0px 2px 1px -1px rgba(204, 204, 204, 0.12);
+  margin: 12px;
+
+  a {
+    all: unset;
+  }
+  font-weight: 400;
+}
+
+.successMessage {
+  cursor: pointer;
+  border: 1px solid #fafdff;
+  background-color: #ffffff;
+  padding: 10px;
+  box-shadow: 0px 1px 3px 0px rgba(142, 142, 142, 0.2),
+    0px 1px 1px 0px rgba(243, 243, 243, 0.14),
+    0px 2px 1px -1px rgba(204, 204, 204, 0.12);
+  margin: 12px;
+
+  a {
+    all: unset;
+  }
+  font-weight: 400;
+}
+
+.licenseTypeWrapper {
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.repoWrapper {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.modalWrapper {
+  padding: 20px;
+  width: 400px;
+}
+
+.normalButtonWrapper {
+  font-family: 'BalooChettan2';
+  cursor: pointer;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.0892857143em;
+  text-transform: uppercase;
+  padding: 0 16px 0 16px;
+  height: 36px;
+  border-radius: var(--mdc-shape-small, 4px);
+  background-color: #fff !important;
+  color: #000;
+  border: 1px solid #000;
+  width: fit-content;
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+}
+.normalButtonWrapper:disabled {
+  cursor: not-allowed;
+  border: 1px solid #777777;
+  color: #777777;
+}
+
+@media screen and (max-width: 560px) {
+  .acknowledgementModalContentWrapper {
+    padding: 10px;
+    max-width: 325px;
+  }
+  .modalWrapper {
+    max-width: 325px;
+  }
+}

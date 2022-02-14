@@ -1,0 +1,78 @@
+.root {
+  width: 100%;
+  padding: 25px;
+}
+
+.userImage {
+  width: 100%;
+  border-radius: 4px;
+  height: min-content;
+}
+.formWrapper {
+  margin: 8px;
+}
+.contentSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  width: 460px;
+  height: calc(100vh - 180px);
+  overflow-x: hidden;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bannerContainer {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.95) 0 100%),
+    url(https://img.favr.town/app/m-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 460px;
+  height: calc(100vh - 180px);
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.messageList {
+  height: calc(65vh);
+  overflow-y: auto;
+}
+.messageCard {
+  margin: 10px 0;
+}
+
+.chatCard {
+  margin: 10px 0;
+  border-radius: 16px;
+}
+
+.conversationIcon {
+  width: 100%;
+  border-radius: 4px;
+}
+.messageText {
+  white-space: pre-line;
+}
+@media screen and (max-width: 550px) {
+  .bannerContainer {
+    width: 100%;
+    height: calc(100vh - 250px);
+    background-size: contain;
+  }
+  .contentSection {
+    width: 100%;
+  }
+  .messageList {
+    overflow-y: auto;
+  }
+  .chatCard {
+    margin: 5px 0;
+  }
+  .userImage {
+    max-height: 35px;
+  }
+}

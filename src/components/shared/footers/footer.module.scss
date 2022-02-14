@@ -1,0 +1,195 @@
+.footerButtonsWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 10px 10px 10px;
+}
+
+.footerButton {
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+.footerContainer {
+  position: fixed;
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 460px;
+  bottom: 0;
+  background-color: white;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.5) 0 100%),
+    url('../../../assets//images/footers/rh1.svg');
+  a {
+    padding: 5px;
+    height: max-content;
+    position: relative;
+  }
+
+  .iconButton {
+    padding: 5px;
+    color: black !important;
+    position: relative;
+  }
+  background-position: top;
+  height: 80px;
+  background-size: contain;
+  img {
+    height: 35px;
+  }
+}
+.standardFooterContainer {
+  position: fixed;
+  height: 80px;
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 460px;
+  bottom: 0;
+  opacity: 1;
+  background-color: white;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.5) 0 100%),
+    url('../../../assets//images/footers/rh1.svg');
+}
+.accountFooterContainer {
+  height: 100px;
+  position: fixed;
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 460px;
+  bottom: 0;
+  background-color: white;
+  background-image: url('../../../assets//images/footers/rh1.svg');
+
+  img {
+    height: 35px;
+  }
+}
+
+.singleFooterButtonWrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 10px 10px 10px;
+}
+.s {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 10px 10px 10px;
+}
+
+.doubleFooterButtonWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 10px 10px 10px;
+
+  .footerText {
+    align-self: center;
+  }
+}
+.accountFooterButtonWrapper {
+  display: flex;
+  //FIXME: change this to space-evenly when we have more buttons in the footer
+  justify-content: flex-end;
+  flex-direction: row;
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 35px;
+  width: inherit;
+}
+
+.privacyStatementWrapper {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  bottom: 0;
+  justify-content: center;
+  font-size: 0.9rem;
+  width: inherit;
+  margin-bottom: -10px;
+}
+
+.acknowledgementWrapper {
+  color: #777777;
+  cursor: pointer;
+}
+a {
+  all: unset;
+  color: #777777;
+  cursor: pointer;
+}
+.normalButtonWrapper {
+  font-family: 'BalooChettan2';
+  cursor: pointer;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.0892857143em;
+  text-transform: uppercase;
+  padding: 0 16px 0 16px;
+  height: 36px;
+  border-radius: var(--mdc-shape-small, 4px);
+  background-color: #fff !important;
+  color: #000;
+  border: 1px solid #000;
+  // width: fit-content;
+  width: 90px;
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+}
+.normalButtonWrapper:disabled {
+  cursor: not-allowed;
+  border: 1px solid #777777;
+  color: #777777;
+}
+.logoutButton {
+  margin-right: 10px;
+}
+
+.footerButtonWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 10px 10px 10px;
+}
+
+.redCircle {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: red;
+  border: 1px solid black;
+  left: 0;
+  top: 0;
+}
+.redCircle3 {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: red;
+  border: 1px solid black;
+  left: 8px;
+  top: 0;
+}
+@media screen and (max-width: 550px) {
+  .footerContainer {
+    width: 100%;
+    // height: 70px;
+  }
+  .standardFooterContainer {
+    width: 100%;
+  }
+  .accountFooterContainer {
+    width: 100%;
+    // height: 100px;
+  }
+  .footerButtonsWrapper {
+    margin: 16px 10px 0px 10px;
+  }
+  .signOut {
+    width: 30px;
+  }
+  // .accountFooterButtonWrapper {
+  //   margin-bottom: 35px;
+  // }
+}

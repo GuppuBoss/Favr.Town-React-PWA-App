@@ -1,0 +1,6 @@
+/node_modules/**
+/public/**
+/build/**
+/vendor/**
+/check-service-worker.js
+/gulpfile.js
